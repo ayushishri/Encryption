@@ -31,3 +31,8 @@ int crypt(char *data,unsigned int size,unsigned char password) {
     }
 
 }
+int main (){
+    unsigned char c=prng(255,0xb8);
+    printf("%d",c);
+    return 0;
+}
